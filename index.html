@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div id="heading">
+        <h3>Student Portal</h3>
+    </div>
+
+    <div id="search-bar">
+        <input id="search-bar-input" type="text" name="search" placeholder="search">
+        <button id="search-btn">Search</button>
+    </div>
+
+    <div class="functions">
+
+        <button id="sortAZ">Sort A->Z</button>
+        <button id="sortZA">Sort Z->A</button>
+        <button id="sortMarks">Sort By Marks</button>
+        <Button id="sortByPassing">Sort By Passing</Button>
+        <button id="sortByClass">Sort By Class</button>
+        <button id="sortByGender">Sort By Gender</button>
+
+    </div>
+    <div id="not-found">
+        <h2>Data Entered is not present in database, reload page to get all data</h2>
+      </div>
+    <div id="table-container">
+        <table>
+            <tr>
+                <td>Id</td>
+                <td>Name</td>
+                <td>Gender</td>
+                <td>Class</td>
+                <td>Marks</td>
+                <td>Passing</td>
+                <td>Email</td>
+            </tr>
+        </table>
+    </div>
+    <div class="table-container" id="table-2-div">
+        <table>
+          <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Gender</td>
+            <td>Class</td>
+            <td>Marks</td>
+            <td>Passing</td>
+            <td>Email</td>
+          </tr>
+        </table>
+      </div>
+    
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
